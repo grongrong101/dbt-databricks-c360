@@ -9,4 +9,4 @@ select
   user_id,
   cast(item_count as int),
   to_timestamp(transaction_date, "MM-dd-yyyy HH:mm:ss") as creation_date
-from ysm.dbt_demo_bronze.dbt_c360_bronze_orders
+from jake_chen_cat.dbdemos.dbt_c360_bronze_orders

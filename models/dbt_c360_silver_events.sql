@@ -10,4 +10,4 @@ select
   platform,
   action,
   url
-from ysm.dbt_demo_bronze.dbt_c360_bronze_events
+from jake_chen_cat.dbdemos.dbt_c360_bronze_events
